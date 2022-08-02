@@ -88,3 +88,53 @@ header li img {
 .first-main ul .ter-box {
     padding-left: 50px;
 }
+main .second-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .second-main .input-search {
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    width: 30%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+main .second-main .input-search:active {    
+    border: 2px solid #36c;
+}
+main .input-search input {
+    border: none;
+    outline: none;
+    height: 90%;
+    width: 80%;
+}
+main .input-search select {
+    border: none;
+    outline-color: #36c;
+    opacity: .75;
+    margin-right: 10px;
+}
+main .second-main .input-search button{
+    width: 56px;
+    height: 44px;
+    border: none;
+    background-color: #36c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+main .second-main .input-search button:hover{
+    background-color: #447ff5;
+}
+main .second-main .input-search button div{
+    background-image: url("https://odim.juridicas.unam.mx/sites/all/themes/base/images-source/lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+}

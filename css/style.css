@@ -30,3 +30,61 @@ header li img {
     width: auto;
     height: 100%;
 }
+.first-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-main ul {
+    padding: 0;
+}
+.first-main ul div {
+    width: 156px;
+    height: 45.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.first-main ul div a{
+    text-decoration: none;
+    color: #36c;
+    font-size: medium;
+    font-weight: bold;
+}
+.first-main ul div p {
+    color: #54595d;
+    margin: 0;
+    margin-top: 5px;
+    opacity: .75;
+    font-size: small;
+}
+.first-main ul .box:hover {
+    background-color: #eaecf0;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.first-main ul .super-box {
+    padding-bottom: 20px;
+}
+.first-main ul .first-box {
+    padding-left: 50px;
+}
+.first-main ul .second-box {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.first-main ul .third-box {
+    padding-right: 50px;
+}
+.first-main ul .prim-box {
+    padding-right: 50px;
+}
+.first-main ul .seg-box {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.first-main ul .ter-box {
+    padding-left: 50px;
+}
